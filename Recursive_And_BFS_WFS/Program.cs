@@ -22,7 +22,6 @@ namespace Recursive_And_BFS_WFS
             treeNode.right = new TreeNode { val = 2,left=new TreeNode { val=3,left=new TreeNode {val=4,right=new TreeNode {val= 6} } }, right=new TreeNode { val=5} };
             Cousins cousins = new Cousins();
             Console.WriteLine(cousins.IsCousins(treeNode, 5, 3));
-            //for test git
         }
     }
 }
